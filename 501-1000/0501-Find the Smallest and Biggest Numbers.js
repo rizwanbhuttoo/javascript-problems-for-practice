@@ -1,0 +1,32 @@
+// https://edabit.com/challenge/Q3n42rEWanZSTmsJm
+
+/*
+Find the Smallest and Biggest Numbers
+
+Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+
+Examples
+minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
+
+minMax([2334454, 5]) ➞ [5, 2334454]
+
+minMax([1]) ➞ [1, 1]
+Notes
+
+All test arrays will have at least one element and are valid.
+*/
+
+function minMax(array) {
+  //   return [Math.min(...array), Math.max(...array)];
+
+  let min = array[0];
+  let max = array[0];
+
+  for (let i = 1; i < array.length; i++) {
+    if (array[i] < min) min = array[i];
+    if (array[i] > max) max = array[i];
+  }
+  return [min, max];
+}
+
+console.log(minMax([1, 2, 3, 4, 5]));

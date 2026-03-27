@@ -1,0 +1,23 @@
+// https://edabit.com/challenge/bqJmJxZYgkRKrLq7v
+
+/*
+Get the Excel Column
+
+Excel column names are in the following format:
+
+A, B, ..., Z, AA, ..., AZ, BA, ..., ZZ, AAA, AAB, ...
+
+Write a function that returns the column number from the row name.
+
+Examples
+column("A") ➞ 1
+
+column("Z") ➞ 26
+
+column("AA") ➞ 27
+
+column("BA") ➞ 53
+Notes
+
+N/A
+*/

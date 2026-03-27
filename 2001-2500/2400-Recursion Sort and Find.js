@@ -1,0 +1,26 @@
+// https://edabit.com/challenge/Ceuoo7Bfnrs3fSbxN
+
+/*
+Recursion: Sort and Find
+
+In this challenge, we'll take recursion to the next level, where we will embed a recursive function within a recursive function.
+
+Write a function that sorts the strings in an array (if the string is a palindrome, it will become part of the sorted array) and finds the longest non-palindromic string.
+
+Although these tasks are achievable with the use of some built-in Array functions, the purpose and intent of this challenge is for you to solve it recursively.
+
+Output Structure
+{longest: longest_non_palindromic, length: longest_length, palindromes: [...palindromic_strings]}
+Examples
+qualify(["wow", "relevance", "radar", "soundly", "intelligence", "racecar", "gradually"]) ➞ {"longest": "intelligence", "length": 12, "palindromes": ["racecar", "radar", "wow"]}
+
+qualify(["persistence", "anna", "civic", "perseverance", "kayak", "irrefutability"]) ➞ {"longest": "irrefutability", "length": 14, "palindromes": ["anna", "civic", "kayak"]}
+
+qualify(["level", "resistance", "madam", "arrogance", "unconsiderably", "mom", "noon"]) ➞ {"longest": "unconsiderably", "length": 14, "palindromes": ["level", "madam", "mom", "noon"]}
+Notes
+All items in the array are lowercase.
+In cases where two longest words are found, return the first.
+The use of reduce(), reduceRight(), map(), filter(), indexOf() and max() functions are restricted.
+You can read more about recursion (see Resources tab) if you aren't familiar with it yet or haven't fully understood the concept before taking up this challenge.
+If you think recursion is fun, check out this collection.
+*/
