@@ -1,6 +1,6 @@
 # 📘 JavaScript Problems for Practice
 
-This repository contains **2500 JavaScript problems** scraped from [Edabit](https://edabit.com).
+This repository contains **2500 JavaScript problems** scraped from <a href="https://edabit.com" target="_blank">Edabit</a>.
 It is designed to help you practice and improve your JavaScript skills without requiring a paid subscription.
 
 ---
