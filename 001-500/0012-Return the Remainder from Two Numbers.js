@@ -19,9 +19,3 @@ Don't forget to return the result.
 If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.
 */
-
-function remainder(number1, number2) {
-  return number1 % number2;
-}
-
-console.log(remainder(-9, 45));

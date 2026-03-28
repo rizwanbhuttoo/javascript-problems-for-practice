@@ -15,9 +15,3 @@ Notes
 
 The first element in an array always has an index of 0.
 */
-
-function getFirstValue(Array) {
-  return Array[0];
-}
-
-console.log(getFirstValue([80, 5, 100]));

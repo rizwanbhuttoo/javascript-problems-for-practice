@@ -16,10 +16,3 @@ Notes
 The side lengths of the triangle are positive integers.
 Don't forget to return the result.
 */
-
-function nextEdge(side1, side2) {
-  if (side1 > 1 && side2 > 1) return side1 + side2 - 1;
-  return 0;
-}
-
-console.log(nextEdge(9, -2));

@@ -17,8 +17,3 @@ If you're stuck, find help in the Resources tab.
 If you're really stuck, find solutions in the Solutions tab.
 */
 
-function findPerimeter(length, width) {
-  return 2 * (length + width);
-}
-
-console.log(findPerimeter(2, 9));

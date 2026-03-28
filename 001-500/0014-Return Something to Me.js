@@ -16,8 +16,3 @@ Notes
 Assume an input is given.
 */
 
-function giveMeSomething(string) {
-  return `${string} joined with a space`;
-}
-
-console.log(giveMeSomething("something"));

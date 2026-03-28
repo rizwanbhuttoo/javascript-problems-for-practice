@@ -16,8 +16,3 @@ Notes
 Requires basic calculation of electrical circuits (see Resources for info).
 */
 
-function circuitPower(voltage, current) {
-  return voltage * current;
-}
-
-console.log(circuitPower(230, 10));

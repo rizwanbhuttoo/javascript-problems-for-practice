@@ -17,8 +17,3 @@ If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.
 */
 
-function addition(x, y) {
-  return x + y;
-}
-
-console.log(addition(3, 2));

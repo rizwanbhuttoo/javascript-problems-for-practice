@@ -16,8 +16,3 @@ Notes
 Don't forget to return your answer.
 */
 
-function howManySeconds(hours) {
-  return hours * 60 * 60;
-}
-
-console.log(howManySeconds(2));
