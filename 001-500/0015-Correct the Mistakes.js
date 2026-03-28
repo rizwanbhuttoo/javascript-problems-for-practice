@@ -15,3 +15,12 @@ Notes
 READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
 Don't overthink this challenge; it's not supposed to be hard.
 */
+
+function squared(b) {
+  return b ** 2;
+}
+
+console.log(squared(5));
+console.log(squared(9));
+console.log(squared(100));
+

@@ -16,3 +16,14 @@ Don't forget to return the result.
 If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.
 */
+
+function nameString(name) {
+  let result = name + "Edabit";
+  return result;
+
+  // return name + "Edabit";
+}
+
+console.log(nameString("Mubashir"));
+console.log(nameString("Matt"));
+console.log(nameString("javaScript"));

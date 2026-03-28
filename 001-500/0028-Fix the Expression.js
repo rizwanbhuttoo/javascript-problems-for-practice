@@ -15,3 +15,11 @@ Notes
 
 The bug can be hard to find, so look closely!
 */
+
+function isSeven(x) {
+  return x === 7;
+}
+
+console.log(isSeven(4));
+console.log(isSeven(9));
+console.log(isSeven(7));

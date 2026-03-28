@@ -16,3 +16,17 @@ Don't forget to return the result.
 If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.
 */
+
+function lessThanOrEqualToZero(num) {
+  if (num <= 0) {
+    return true;
+  } else {
+    return false;
+  }
+
+  //   return num <= 0;
+}
+
+console.log(lessThanOrEqualToZero(5));
+console.log(lessThanOrEqualToZero(0));
+console.log(lessThanOrEqualToZero(-2));

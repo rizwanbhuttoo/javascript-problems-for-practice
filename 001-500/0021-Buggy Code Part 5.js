@@ -15,3 +15,15 @@ Notes
 READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
 Don't overthink this challenge; it's not supposed to be hard.
 */
+
+function printArray(n) {
+  let arr = [];
+  for (let i = 1; i <= n; i++) {
+    arr.push(i);
+  }
+  return arr;
+}
+
+console.log(printArray(1));
+console.log(printArray(3));
+console.log(printArray(6));

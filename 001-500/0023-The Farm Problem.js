@@ -22,3 +22,11 @@ Don't forget to return the result.
 The order of animals passed is animals(chickens, cows, pigs).
 Remember that the farmer wants to know the total number of legs and not the total number of animals.
 */
+
+function animals(chickens, cows, pigs) {
+  return chickens * 2 + cows * 4 + pigs * 4;
+}
+
+console.log(animals(2, 3, 5));
+console.log(animals(1, 2, 3));
+console.log(animals(5, 2, 8));
